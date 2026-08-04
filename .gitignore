@@ -1,0 +1,9 @@
+*.class
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+site/
+.pytest_cache/
+.DS_Store
+.commandcode
