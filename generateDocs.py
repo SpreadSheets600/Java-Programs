@@ -14,6 +14,13 @@ import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 DATE_PATTERN = re.compile(r"^(\d{2})-(\d{2})-(\d{4})$")
+QUESTION_RULES = {
+    "HelloWorld": "Write a Java program to print Hello World.",
+    "FactorialSum": "Write a Java program to calculate the sum of factorials from 1 to n.",
+    "PrimeNumber": "Write a Java program to determine whether a number is prime.",
+    "PatternOne": "Write a Java program to print a decreasing star pattern.",
+    "PatternTwo": "Write a Java program to print an increasing number pattern.",
+}
 GENERATED_MARKER = ""
 
 
@@ -22,6 +29,7 @@ class Program:
     source: Path
     stem: str
     title: str
+    question: str
     code: str
     output: str
     status: str
@@ -57,6 +65,10 @@ def discover_sessions(root: Path) -> list[Path]:
             continue
         sessions.append(child)
     return sorted(sessions, key=lambda path: dt.datetime.strptime(path.name, "%m-%d-%Y").date(), reverse=True)
+
+
+def infer_question(stem: str) -> str:
+    return QUESTION_RULES.get(stem, f"Write a Java program to demonstrate {title_from_stem(stem)}.")
 
 
 def run_program(source: Path, root: Path) -> tuple[str, str]:
@@ -109,6 +121,7 @@ def load_sessions(root: Path) -> list[Session]:
                     source=source,
                     stem=source.stem,
                     title=title_from_stem(source.stem),
+                    question=infer_question(source.stem),
                     code=source.read_text(encoding="utf-8"),
                     output=output,
                     status=status,
@@ -128,6 +141,8 @@ def session_readme(session: Session) -> str:
         lines.extend(
             [
                 f"## Exercise {index}: {program.title}",
+                "",
+                f"## Question: {program.question}",
                 "",
                 "### Code",
                 "",
@@ -255,6 +270,8 @@ def docs_session(session: Session) -> str:
         lines.extend(
             [
                 f"## {index}. {program.title}",
+                "",
+                f"**Question:** {program.question}",
                 "",
                 fenced_code(program.code, "java"),
                 "",

@@ -2,6 +2,8 @@
 
 ## Exercise 1: Factorial Sum
 
+## Question: Write a Java program to calculate the sum of factorials from 1 to n.
+
 ### Code
 
 ```java
@@ -28,6 +30,8 @@ The Sum Of Factorials From 1 To 5 Is: 153
 
 ## Exercise 2: Hello World
 
+## Question: Write a Java program to print Hello World.
+
 ### Code
 
 ```java
@@ -45,6 +49,8 @@ Hello World!
 ```
 
 ## Exercise 3: Pattern One
+
+## Question: Write a Java program to print a decreasing star pattern.
 
 ### Code
 
@@ -82,6 +88,8 @@ public class PatternOne {
 
 ## Exercise 4: Pattern Two
 
+## Question: Write a Java program to print an increasing number pattern.
+
 ### Code
 
 ```java
@@ -111,6 +119,8 @@ public class PatternTwo {
 ```
 
 ## Exercise 5: Prime Number
+
+## Question: Write a Java program to determine whether a number is prime.
 
 ### Code
 
