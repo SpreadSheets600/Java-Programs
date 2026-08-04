@@ -1,0 +1,32 @@
+site_name: Java Programs
+site_description: College practical class Java programs and reference solutions
+site_url: https://spreadsheets600.github.io/Java-Programs/
+docs_dir: docs
+use_directory_urls: true
+repo_url: https://github.com/SpreadSheets600/Java-Programs
+repo_name: SpreadSheets600/Java-Programs
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - search.highlight
+    - search.share
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - admonition
