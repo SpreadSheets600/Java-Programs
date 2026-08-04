@@ -15,11 +15,25 @@ from dataclasses import dataclass
 from pathlib import Path
 DATE_PATTERN = re.compile(r"^(\d{2})-(\d{2})-(\d{4})$")
 QUESTION_RULES = {
-    "HelloWorld": "Write a Java program to print Hello World.",
-    "FactorialSum": "Write a Java program to calculate the sum of factorials from 1 to n.",
-    "PrimeNumber": "Write a Java program to determine whether a number is prime.",
-    "PatternOne": "Write a Java program to print a decreasing star pattern.",
-    "PatternTwo": "Write a Java program to print an increasing number pattern.",
+    "HelloWorld": "Write a Java program to print Hello World",
+    "FactorialSum": "Write a Java program to print the following pattern : 1! + 2! + 3! + ... + n",
+    "PrimeNumber": "Write a Java program to determine whether a number is prime",
+    "PatternOne": """Write a Java program to print the following pattern
+
+```
+* * * *
+  * * *
+    * *
+      *
+```""",
+    "PatternTwo": """Write a Java program to print the following pattern
+
+```
+1
+1 2
+1 2 3
+1 2 3 4
+```""",
 }
 GENERATED_MARKER = ""
 
