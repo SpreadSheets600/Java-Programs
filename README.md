@@ -1,29 +1,51 @@
-# Java Programs
+# Java (OOPS) Lab Archive
 
-> A collection of Java programs completed during practical classes.
+A maintained, Markdown-first record of Java (OOPS) laboratory work, commands, and reference material. Just the collection of practical work for Java Lab and exercises. Use this page as the starting point for the archive. It is also the repository README, so any update here appears on both GitHub and the published site.
 
-## At A Glance
+## Overview
 
-- **1** practical session
-- **5** programs
-- **1** reference PDF
-- [Browse the programs online](https://spreadsheets600.github.io/Java-Programs/)
+## Session Index
 
-## Practical Sessions
+| Date       | Topic        | Source                       |
+| ---------- | ------------ | ---------------------------- |
+| 04-08-2026 | Experiment 1 | [Link](04-08-2026/README.md) |
+| 04-08-2026 | Experiment 2 | [Link](04-08-2026/README.md) |
+| 04-08-2026 | Experiment 3 | [Link](04-08-2026/README.md) |
+| 04-08-2026 | Experiment 4 | [Link](04-08-2026/README.md) |
+| 04-08-2026 | Experiment 5 | [Link](04-08-2026/README.md) |
+| 11-08-2026 | Experiment 6 | [Link](11-08-2026/README.md) |
+| 11-08-2026 | Experiment 7 | [Link](11-08-2026/README.md) |
 
-| Date | Programs | Open |
-|------|----------|------|
-| April 8, 2026 | Factorial Sum, Hello World, Pattern One, Pattern Two, Prime Number (5) | [View session](04-08-2026/README.md) |
+## PDF Library
 
-## Reference PDFs
+### Notes
 
-### Library
+| PDF              | Source                                                                             |
+| ---------------- | ---------------------------------------------------------------------------------- |
+| Dummies For Java | [Link](https://spreadsheets600.github.io/Java-Programs/Books/Java-For-Dummies.pdf) |
 
-| PDF | Open |
-|-----|------|
-| Java-For-Dummies.pdf | [Open PDF](Books/Java-For-Dummies.pdf) |
+### Questions
+
+| PDF  | Source                                                   |
+| ---- | -------------------------------------------------------- |
+| Soon | [Link](https://github.com/SpreadSheets600/Java-Programs) |
+
+## Writing A Practical
+
+Use clear sections so each record is easy to scan:
+
+1. Aim
+2. Code
+3. Output
+
+Use fenced code blocks for commands and output. The published site keeps every command line readable on desktop and mobile.
+
+```bash
+grep -R "TODO" .
+git status --short
+```
 
 ## Publish
 
-Push to `main`. GitHub Actions builds the static site and publishes the archive to GitHub Pages.
-For a new session or a different project, see the [migration guide](MIGRATING.md).
+Push to `main`. GitHub Actions builds the static site and publishes the Markdown archive to GitHub Pages.
+For a different project or an existing collection of solutions, see the [migration guide](MIGRATING.md).
