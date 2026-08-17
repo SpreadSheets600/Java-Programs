@@ -1,8 +1,6 @@
-# Programming Exercises - April 8, 2026
+# Programming Exercises - August 4, 2026
 
-## Exercise 1: Factorial Sum
-
-## Question: Write a Java program to print the following pattern : 1! + 2! + 3! + ... + n
+## Experiment 1 : Write a Java program to print the following pattern : 1! + 2! + 3! + ... + n
 
 ### Code
 
@@ -28,9 +26,7 @@ public class FactorialSum {
 The Sum Of Factorials From 1 To 5 Is: 153
 ```
 
-## Exercise 2: Hello World
-
-## Question: Write a Java program to print Hello World
+## Experiment 2 : Write a Java program to print Hello World
 
 ### Code
 
@@ -93,9 +89,7 @@ public class PatternOne {
       *
 ```
 
-## Exercise 4: Pattern Two
-
-## Question: Write a Java program to print the following pattern
+## Experiment 4 : Write a Java program to print the following pattern.
 
 ```
 1
@@ -132,9 +126,7 @@ public class PatternTwo {
 1 2 3 4
 ```
 
-## Exercise 5: Prime Number
-
-## Question: Write a Java program to determine whether a number is prime
+## Experiment 5: Write a Java program to determine whether a number is prime
 
 ### Code
 
