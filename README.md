@@ -6,7 +6,7 @@
 
 - **1** practical session
 - **5** programs
-- **0** reference PDFs
+- **1** reference PDF
 - [Browse the programs online](https://spreadsheets600.github.io/Java-Programs/)
 
 ## Practical Sessions
@@ -17,8 +17,8 @@
 
 ## Reference PDFs
 
-### Notes
+### Library
 
 | PDF | Open |
 |-----|------|
-| _No reference PDFs yet_ | — |
+| Java-For-Dummies.pdf | [Open PDF](Books/Java-For-Dummies.pdf) |
