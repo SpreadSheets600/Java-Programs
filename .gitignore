@@ -1,10 +1,10 @@
-*.class
+# Local clone of the site engine (markdown-archive-engine)
+.engine/
+
+# Build output
+dist/
 node_modules/
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-site/
-.pytest_cache/
-.DS_Store
-.commandcode
+.astro/
+
+# Java
+*.class
