@@ -17,6 +17,9 @@ A maintained, Markdown-first record of Java (OOPS) laboratory work, commands, an
 | 11-08-2026 | Experiment 7 | [Link](11-08-2026/README.md) |
 | 18-08-2026 | Experiment 8 | [Link](18-08-2026/README.md) |
 | 18-08-2026 | Experiment 9 | [Link](18-08-2026/README.md) |
+| 08-09-2026 | Experiment 10 | [Link](08-09-2026/README.md) |
+| 08-09-2026 | Experiment 11 | [Link](08-09-2026/README.md) |
+| 08-09-2026 | Experiment 12 | [Link](08-09-2026/README.md) |
 
 ## PDF Library
 
