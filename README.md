@@ -8,21 +8,21 @@ A maintained, Markdown-first record of Java (OOPS) laboratory work, commands, an
 
 | Date       | Topic        | Source                       |
 | ---------- | ------------ | ---------------------------- |
-| 04-08-2026 | Experiment 1 | [Link](04-08-2026/README.md) |
-| 04-08-2026 | Experiment 2 | [Link](04-08-2026/README.md) |
-| 04-08-2026 | Experiment 3 | [Link](04-08-2026/README.md) |
-| 04-08-2026 | Experiment 4 | [Link](04-08-2026/README.md) |
-| 04-08-2026 | Experiment 5 | [Link](04-08-2026/README.md) |
-| 11-08-2026 | Experiment 6 | [Link](11-08-2026/README.md) |
-| 11-08-2026 | Experiment 7 | [Link](11-08-2026/README.md) |
-| 18-08-2026 | Experiment 8 | [Link](18-08-2026/README.md) |
-| 18-08-2026 | Experiment 9 | [Link](18-08-2026/README.md) |
-| 08-09-2026 | Experiment 10 | [Link](08-09-2026/README.md) |
-| 08-09-2026 | Experiment 11 | [Link](08-09-2026/README.md) |
-| 08-09-2026 | Experiment 12 | [Link](08-09-2026/README.md) |
-| 08-09-2026 | Experiment 13 | [Link](15-09-2026/README.md) |
-| 08-09-2026 | Experiment 14 | [Link](15-09-2026/README.md) |
-| 08-09-2026 | Experiment 15 | [Link](15-09-2026/README.md) |
+| 04-08-2026 | Experiment 1 | [Link](04-08-2026/) |
+| 04-08-2026 | Experiment 2 | [Link](04-08-2026/) |
+| 04-08-2026 | Experiment 3 | [Link](04-08-2026/) |
+| 04-08-2026 | Experiment 4 | [Link](04-08-2026/) |
+| 04-08-2026 | Experiment 5 | [Link](04-08-2026/) |
+| 11-08-2026 | Experiment 6 | [Link](11-08-2026/) |
+| 11-08-2026 | Experiment 7 | [Link](11-08-2026/) |
+| 18-08-2026 | Experiment 8 | [Link](18-08-2026/) |
+| 18-08-2026 | Experiment 9 | [Link](18-08-2026/) |
+| 08-09-2026 | Experiment 10 | [Link](08-09-2026/) |
+| 08-09-2026 | Experiment 11 | [Link](08-09-2026/) |
+| 08-09-2026 | Experiment 12 | [Link](08-09-2026/) |
+| 08-09-2026 | Experiment 13 | [Link](15-09-2026/) |
+| 08-09-2026 | Experiment 14 | [Link](15-09-2026/) |
+| 08-09-2026 | Experiment 15 | [Link](15-09-2026/) |
 
 ## PDF Library
 
