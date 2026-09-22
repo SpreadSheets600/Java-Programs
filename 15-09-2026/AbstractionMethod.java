@@ -56,7 +56,6 @@ class Cone extends Shape3D {
         super(radius, height);
     }
 
-    @Override
     void findVol() {
         double volume = (1.0 / 3.0) * Math.PI * Math.pow(dim1, 2) * dim2;
         System.out.println("Volume Of Cone : " + volume);
